@@ -1,0 +1,7 @@
+hosts: [democosmosdb100.gremlin.cosmosdb.azure.com]
+port: 443
+username: /dbs/AdtProvisioning/colls/Container1
+password: yC8d7rzaMGZrLotKrMPaXqgcotGwmEgjzTx2M8k7PEOFOPr1PWtr8N6Hk1QTRaacxgvusbcAlwPGpi2UzN86pg==
+connectionPool: {
+  enableSsl: true}
+serializer: { className: org.apache.tinkerpop.gremlin.driver.ser.GraphSONMessageSerializerV2d0, config: { serializeResultToString: true }}
